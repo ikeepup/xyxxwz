@@ -1,0 +1,94 @@
+A { 
+	color:#000000; text-decoration:none; 
+}
+A:hover { 
+	color:#384780; TEXT-DECORATION: underline
+}
+A.showmeun {
+	color:blue; text-decoration:none; 
+}
+A.showmeun:hover {
+	color:#FF8E20; TEXT-DECORATION: underline
+}
+A.showtitle {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.showtitle:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+body 
+{
+	font-size: 12px;
+	color: #000000;
+	font-family: 宋体;
+	background-color: #F9F9F9;
+	scrollbar-face-color: #f6f6f6;/*滚动条凸出部分的颜色*/
+	scrollbar-highlight-color: #ffffff;/*滚动条空白部分的颜色*/
+	scrollbar-shadow-color: #cccccc;/*立体滚动条阴影的颜色*/
+	scrollbar-3dlight-color: #cccccc;/*滚动条亮边的颜色*/
+	scrollbar-arrow-color: #330000;/*上下按钮上三角箭头的颜色*/
+	scrollbar-track-color: #fefefe;/*滚动条的背景颜色*/
+	scrollbar-darkshadow-color: #ffffff;/*滚动条强阴影的颜色*/
+
+}
+td{
+	Font-family:宋体; Font-size: 12px; Line-height: 20px; Line-height: 150%;Table-layout:Fixed;Word-break:Break-all
+}
+input {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,宋体; Text-decoration: None; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+option {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,宋体; Text-decoration: None; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+textarea {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,宋体; Text-decoration: None; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+select {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,宋体; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+span {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,宋体; Font-size: 12px; Position: Static
+}
+.UserLeft {
+	border-collapse: collapse; background:#F7F7F7; border-right: 1px solid #DDDDDD;padding-left: 15px;
+}
+.UserRight {
+	border-collapse: collapse; background:#FFFFFF; border-left: 1px solid #DDDDDD;
+}
+.UserTableRow1 {
+	background-color:#F7F7F7;
+}
+.UserTableRow2 {
+	background-color:#F0F0F0;
+}
+.UserTableBorder {
+	border: 1px #3795D2 solid ; 
+	background-color: #FFFFFF;
+	font: 12px;
+	width: 96%
+}
+.tableborder1 {
+	border: 1px #3795D2 solid ; 
+	background-color: #FFFFFF;
+	font: 12px;
+}
+th
+{
+    background-color: #3795D2;
+    color: white;
+    font-size: 12px;
+    font-weight:bold;
+    height: 25;
+}
+.userfont1 {
+	color:red;
+}
+.userfont2 {
+	color:#3795D2;
+}
+.userfont3 {
+	color:green;
+}

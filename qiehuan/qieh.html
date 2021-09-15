@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="_common/css/main.css" type="text/css" media="all">
+<link href="imageMenu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="_common/js/mootools.js"></script>
+<script type="text/javascript" src="imageMenu.js"></script>
+</head>
+<body>
+
+<div id="container">
+	 
+		<div id="example">
+			<div id="imageMenu">
+			<ul>
+				<li class="landscapes"><a href="#" target="_blank">Landscapes</a></li>
+				<li class="people"><a href="#" target="_blank">People</a></li>
+				<li class="nature"><a href="#" target="_blank">Nature</a></li>
+				<li class="urban"><a href="#" target="_blank">Urban</a></li>
+			
+			</ul>
+			</div>
+		
+		<script type="text/javascript">
+			
+			window.addEvent('domready', function(){
+				var myMenu = new ImageMenu($$('#imageMenu a'),{openWidth:180, border:2, onOpen:function(e,i){window.open(e);}});
+			});
+		</script>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>

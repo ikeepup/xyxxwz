@@ -1,0 +1,171 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>全屏欣赏</title>
+<script language="javascript">
+<!--
+var theurl1 = "http://www.enchi.com.cn/flash/";
+var theurl2 = "http://www.enchi.com.cn/flash/";
+var webServer = "";
+var dt = new Date();
+var hr = dt.getSeconds();
+hr = hr%2;
+if(hr==1) {webServer=theurl2; }
+if(hr==0) {webServer=theurl1; }
+webServer = "";
+// -->
+</script>
+</head>
+<body bgcolor="#000000" leftmargin="0" topmargin="0" bottommargin="22" scroll="no">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<b>
+<font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font><font color="#FFFFFF" size="-1">全屏欣赏</font><font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font>
+</b>
+</td>
+<td align="right">
+<b>
+<font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif">close&nbsp;window&nbsp;</font><font color="#FFFFFF" size="-1">关闭窗口</font><font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;--->&nbsp;</font></b><a href="javascript:window.close();"><img alt="关闭本页面" align="absMiddle" border="0" src="../images/close.gif" width="18" height="15"></a>&nbsp;
+</td>
+</tr>
+</table>
+<script language=JavaScript>
+<!--flacn.com
+var searchString = location.search 
+var pos = searchString.indexOf ("?")
+if (pos == 0) {
+str1 = "" + searchString.substr (1, searchString.length)
+}
+var strArray = str1.split(".");
+var n = strArray.length - 1;
+var sGameType = strArray[n]
+//alert(sGameType)
+switch(sGameType){
+case "swf":
+	document.write ("<OBJECT ID='movie' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0' width='100%' height='100%'>\n");
+	document.write ("<PARAM NAME=movie  VALUE=\"" + webServer + str1 + "\">\n");
+	document.write ("<PARAM NAME=quality VALUE=high>\n");
+	document.write ("<embed src=\"" + webServer + str1 + "\" loop=false menu=false quality=high height='100%' width='102%' TYPE=application/x-shockwave-flash PLUGINSPAGE=http://www.macromedia.com/shockwave/download/index.cgi?P1_Pro d_Version=ShockwaveFlash type='application/x-shockwave-flash'>\n");
+	document.write ("</OBJECT>\n");
+	
+	break;
+case "jpg":
+	document.write ("<img src='" + webServer + str1 + "'>\n");
+	break;
+case "gif":
+	document.write ("<img src='" + webServer + str1 + "'>\n");
+	break;
+case "bmp":
+	document.write ("<img src='" + webServer + str1 + "'>\n");
+	break;
+case "png":
+	document.write ("<img src='" + webServer + str1 + "'>\n");
+	break;
+case "mp3":
+	WindowsMedia();
+	break;
+case "wma":
+	WindowsMedia();
+	break;
+case "rm":
+	RealPlayer();
+	break;
+case "dcr":
+	document.write("<object classid=\"clsid:166B1BCA-3F9C-11CF-8075-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=8,5,1,0\" width=\"100%\" height=\"100%\">");
+	document.write("<param name=src value=\"" + str1 +"\">");
+	document.write("<param name=swRemote value=\"swSaveEnabled='false' swVolume='false' swRestart='false' swPausePlay='false' swFastForward='false' swContextMenu='false' \">");
+	document.write("<param name=swStretchStyle value=fill>");
+	document.write("<PARAM NAME=bgColor VALUE=#000000>");
+	document.write("<PARAM NAME=logo VALUE=FALSE>");
+	document.write("<embed src=\"" + str1 +"\" bgColor=#000000 logo=FALSE  width=750 height=563 swRemote=\"swSaveEnabled='false' swVolume='false' swRestart='false' swPausePlay='false' swFastForward='false' swContextMenu='false' \" swStretchStyle=fill type=\"application/x-director\" pluginspage=\"http://www.macromedia.com/shockwave/download/\"></embed>");
+	document.write("</object>");
+	break;
+}
+
+function WindowsMedia() {
+	document.write("<object classid=\"clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95\" id=\"MediaPlayer1\" width=\"100%\" height=\"100%\">");
+	document.write("        <param name=\"AudioStream\" value=\"-1\">");
+	document.write("        <param name=\"AutoSize\" value=\"0\">");
+	document.write("        <param name=\"AutoStart\" value=\"-1\">");
+	document.write("        <param name=\"AnimationAtStart\" value=\"-1\">");
+	document.write("        <param name=\"AllowScan\" value=\"-1\">");
+	document.write("        <param name=\"AllowChangeDisplaySize\" value=\"-1\">");
+	document.write("        <param name=\"AutoRewind\" value=\"0\">");
+	document.write("        <param name=\"Balance\" value=\"0\">");
+	document.write("        <param name=\"BaseURL\" value>");
+	document.write("        <param name=\"BufferingTime\" value=\"5\">");
+	document.write("        <param name=\"CaptioningID\" value>");
+	document.write("        <param name=\"ClickToPlay\" value=\"-1\">");
+	document.write("        <param name=\"CursorType\" value=\"0\">");
+	document.write("        <param name=\"CurrentPosition\" value=\"-1\">");
+	document.write("        <param name=\"CurrentMarker\" value=\"0\">");
+	document.write("        <param name=\"DefaultFrame\" value>");
+	document.write("        <param name=\"DisplayBackColor\" value=\"0\">");
+	document.write("        <param name=\"DisplayForeColor\" value=\"16777215\">");
+	document.write("        <param name=\"DisplayMode\" value=\"0\">");
+	document.write("        <param name=\"DisplaySize\" value=\"2\">");
+	document.write("        <param name=\"Enabled\" value=\"-1\">");
+	document.write("        <param name=\"EnableContextMenu\" value=\"-1\">");
+	document.write("        <param name=\"EnablePositionControls\" value=\"-1\">");
+	document.write("        <param name=\"EnableFullScreenControls\" value=\"0\">");
+	document.write("        <param name=\"EnableTracker\" value=\"-1\">");
+	document.write("        <param name=\"Filename\" value=\"" + str1 +"\">");
+	document.write("        <param name=\"InvokeURLs\" value=\"-1\">");
+	document.write("        <param name=\"Language\" value=\"-1\">");
+	document.write("        <param name=\"Mute\" value=\"0\">");
+	document.write("        <param name=\"PlayCount\" value=\"1\">");
+	document.write("        <param name=\"PreviewMode\" value=\"0\">");
+	document.write("        <param name=\"Rate\" value=\"1\">");
+	document.write("        <param name=\"SAMILang\" value>");
+	document.write("        <param name=\"SAMIStyle\" value>");
+	document.write("        <param name=\"SAMIFileName\" value>");
+	document.write("        <param name=\"SelectionStart\" value=\"-1\">");
+	document.write("        <param name=\"SelectionEnd\" value=\"-1\">");
+	document.write("        <param name=\"SendOpenStateChangeEvents\" value=\"-1\">");
+	document.write("        <param name=\"SendWarningEvents\" value=\"-1\">");
+	document.write("        <param name=\"SendErrorEvents\" value=\"-1\">");
+	document.write("        <param name=\"SendKeyboardEvents\" value=\"0\">");
+	document.write("        <param name=\"SendMouseClickEvents\" value=\"0\">");
+	document.write("        <param name=\"SendMouseMoveEvents\" value=\"0\">");
+	document.write("        <param name=\"SendPlayStateChangeEvents\" value=\"-1\">");
+	document.write("        <param name=\"ShowCaptioning\" value=\"0\">");
+	document.write("        <param name=\"ShowControls\" value=\"-1\">");
+	document.write("        <param name=\"ShowAudioControls\" value=\"-1\">");
+	document.write("        <param name=\"ShowDisplay\" value=\"0\">");
+	document.write("        <param name=\"ShowGotoBar\" value=\"0\">");
+	document.write("        <param name=\"ShowPositionControls\" value=\"-1\">");
+	document.write("        <param name=\"ShowStatusBar\" value=\"-1\">");
+	document.write("        <param name=\"ShowTracker\" value=\"-1\">");
+	document.write("        <param name=\"TransparentAtStart\" value=\"0\">");
+	document.write("        <param name=\"VideoBorderWidth\" value=\"0\">");
+	document.write("        <param name=\"VideoBorderColor\" value=\"0\">");
+	document.write("        <param name=\"VideoBorder3D\" value=\"0\">");
+	document.write("        <param name=\"Volume\" value=\"-40\">");
+	document.write("        <param name=\"WindowlessVideo\" value=\"0\">");
+	document.write("	<embed type=\"application/x-mplayer2\" pluginspage=\"http://www.microsoft.com/windows/mediaplayer/download/default.asp\" Name=\"Player\" width=\"100%\" height=\"100%\" border=\"0\" SHOWSTATUSBAR=\"-1\" SHOWCONTROLS=\"0\" SHOWGOTOBAR=\"0\" SHOWDISPLAY=\"-1\" INVOKEURLS=\"-1\" AUTOSTART=\"1\" CLICKTOPLAY=\"0\" DisplayForeColor=\"12945678\">");
+	document.write("</object>\n");
+}
+
+function RealPlayer() {
+	document.write("<object classid=\"clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA\" height=\"100%\" id=\"video1\" width=\"100%\" VIEWASTEXT>");
+	document.write("	<param name=\"_ExtentX\" value=\"5503\">");
+	document.write("	<param name=\"_ExtentY\" value=\"1588\">");
+	document.write("	<param name=\"AUTOSTART\" value=\"-1\">");
+	document.write("	<param name=\"SHUFFLE\" value=\"0\">");
+	document.write("	<param name=\"PREFETCH\" value=\"0\">");
+	document.write("	<param name=\"NOLABELS\" value=\"0\">");
+	document.write("	<param name=\"SRC\" value=\"" + str1 +"\">");
+	document.write("	<param name=\"CONTROLS\" value=\"Imagewindow,StatusBar,ControlPanel\">");
+	document.write("	<param name=\"CONSOLE\" value=\"RAPLAYER\">");
+	document.write("	<param name=\"LOOP\" value=\"0\">");
+	document.write("	<param name=\"NUMLOOP\" value=\"0\">");
+	document.write("	<param name=\"CENTER\" value=\"0\">");
+	document.write("	<param name=\"MAINTAINASPECT\" value=\"0\">");
+	document.write("	<param name=\"BACKGROUNDCOLOR\" value=\"#000000\">");
+	document.write("</object>\n");
+}
+//-->
+</script>                                                  
+<table>
+</body>

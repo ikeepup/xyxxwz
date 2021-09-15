@@ -1,0 +1,237 @@
+td { 
+	font-size: 12px; font-family: ����; line-height: 18px;table-layout:fixed;word-break:break-all
+}
+table {  
+        font-size: 12px; line-height: 20px;}
+input {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,����; Text-decoration: None; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+option {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,����; Text-decoration: None; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+textarea {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,����; Text-decoration: None; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+select {
+	Font-family:Verdana, Arial, Helvetica, Sans-serif,����; Border-top-width: 1px; Border-left-width: 1px; Font-size: 12px; Border-bottom-width: 1px; Border-right-width: 1px
+}
+a {
+        color: #555555; text-decoration: none
+}
+a:hover {
+        color: #FF8C40; text-decoration: underline
+}
+a.showlist{
+	font-size: 12px; text-decoration: none; color: #555555; 
+}
+a.showlist:hover{
+	font-size: 12px; text-decoration: underline; color: #FF8C40; 
+}
+a.navmenu{
+	font-size: 12px; text-decoration: none; color: #FFFFFF;
+}
+a.navmenu:hover{
+	font-size: 12px; text-decoration: underline; color: #00FF99;
+}
+a.navmenu1{
+	font-size: 12px; text-decoration: none; color: #333333;
+}
+a.navmenu1:hover{
+	font-size: 12px; text-decoration: underline; color: #1592E0;
+}
+a.showtitle{
+	font-size: 12px; text-decoration: none; color: #FFFFFF;
+}
+a.showtitle:hover{
+	font-size: 12px; text-decoration: underline; color: #00FF99;
+}
+a.navbar{
+	font-size: 12px; text-decoration: none; color: #FFFFFF;
+}
+a.navbar:hover{
+	font-size: 12px; text-decoration: underline; color: #FF8C40;
+}
+a.distinct{
+	font-size: 12px; text-decoration: none; color: #FF3300;font-weight:bold;
+}
+a.distinct:hover{
+	font-size: 12px; text-decoration: underline; color: #FF8C40;font-weight:bold;
+}
+a.toplink{
+	font-size: 12px; text-decoration: none; color: #FFFFFF;
+}
+a.toplink:hover{
+	font-size: 12px; text-decoration: underline; color: #FFFFFF;
+}
+a.arrange{
+	font-size: 12px; text-decoration: none; color: blue;
+}
+a.arrange:hover{
+	font-size: 12px; text-decoration: underline; color: red;
+}
+a.flashtopic{
+	font-size: 14px; text-decoration: none; color: #0000FF;
+}
+a.flashtopic:hover{
+	font-size: 14px; text-decoration: underline; color: #FF8C40;
+}
+.titlebody {color: #FFFFFF; font-size: 16px; font-weight:bold;}
+th{
+	background-color: #1592E0; color: #FFFFFF; font-size: 12px; font-weight:bold;height: 22;
+}
+.tableborder {
+	border-collapse: collapse; background:#FFFFFF; border-right: 5px solid #FFFFFF; border-left: 5px solid #FFFFFF;
+}
+.navbarbg {	background:#1592E0;color: #FFFFFF;}
+.navbarbg2 {	background:#F7F7F7;background-image: url('skin/qingxin/nav_bg.gif');}
+.tableborder1{border: 1px #698CC3 solid ; background-color: #FFFFFF;}
+td.tablerow{background-color:#F9FBFD;height: 25;padding 5px}
+.tableleft {	background:#F7F7F7;width:188;border-right: 1px solid #DDDDDD;}
+.tableright {	background:#FFFFFF;width:580;}
+.tablebody {	background:#1592E0;color: #FFFFFF;padding-left: 5px;padding-right: 5px;}
+.linebar {	background:#ADBEC8;color: #FFFFFF;height: 8px;}
+.showtitle1 {	background:#026EC1;color: #FFFFFF;padding-left: 10px;font-weight:bold;height: 25;}
+.showbody1 {	background:#FFFFFF;border: 1px solid #DDDDDD;}
+.showtitle2 {	background:#1592E0;color: #FFFFFF;padding-left: 10px;font-weight:bold;height: 25;}
+.showtitle3 {	background:#FF9900;color: #FFFFFF;padding-left: 10px;font-weight:bold;height: 25;}
+.showbody2 {	background:#FFFFFF;border: 1px solid #DDDDDD;}
+.showbody3 {	border-collapse: collapse; background:#EEEEEE;border: 1px solid #DDDDDD;}
+.titleback1 {
+	background:#EF862C;background-image: url('skin/qingxin/title1_188x25_r1.gif'); color: #FFFFFF; font-size: 12px; height: 25px;text-align:center;font-weight:bold;
+}
+.titleback2 {
+	background:#698CC3;background-image: url('skin/qingxin/title1_575x25_r2.gif'); color: #FFFFFF; font-size: 12px; height: 25px;text-align:center; font-weight:bold;
+}
+.titleback3 {
+	background:#1592E0;color: #ffffff; font-size: 12px; height: 25px;padding-left: 10px; text-align: left; font-weight:bold;
+}
+.titlebg1 {
+	background-image: url('skin/qingxin/dot_bg.gif'); color: #333333; font-size: 12px; height: 27px;padding-left: 10px; text-align: left; font-weight:bold;
+}
+.shadow {
+	filter: glow(color=ffffff, strength=1) dropshadow(color=cccccc, offx=1, offy=1,); width: 100%; line-height: 20px
+}
+ .shadow1 {
+	font-size: 9pt; filter: dropshadow(color=#000000,offx=-1,offy=1,positive=1); color: #FFFFFF;width: 100%; line-height: 20px
+}
+
+.showlist1 {
+	background:#FFFFFF;border-bottom: #E1E1E1 1px dotted;
+}
+.showlist2 {
+	background:#F8F8F8;border-bottom: #E1E1E1 1px dotted;
+}
+.Searchrom {background:#F8F8F8;height: 45;}
+.quote {
+	BORDER-RIGHT: #cccccc 1px dotted; TABLE-LAYOUT: fixed; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px dotted; PADDING-LEFT: 5px; BACKGROUND: #f8f8f8; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #cccccc 1px dotted; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px dotted
+}
+.dottedline {border-bottom: #e1e1e1 1px dotted}
+.Button {
+	font-family: "����";
+	font-size: 9pt;
+	color: #333333;
+	background-color: #eeeeee;
+	cursor: hand;
+	padding: 1px;
+	height: 19px;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #FFFFFF;
+}
+.menuskin {
+	BORDER-RIGHT: #666666 1px solid ;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-BOTTOM: #666666 1px solid;
+	BACKGROUND-IMAGE: url(skin/qingxin/menubg.gif);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+mouseoverstyle {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #0B008B 1px solid;
+	BORDER-TOP: #0B008B 1px solid;
+	BORDER-LEFT: #0B008B 1px solid;
+	BORDER-BOTTOM: #0B008B 1px solid;
+	BACKGROUND-COLOR: #FFEEC2 
+}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:30px;}
+#TableTitleLink A:link,#TableTitleLink A:visited{COLOR:000000;}
+
+td.TableTitle1 { background-color: #1592E0; Color: #FFFFFF; }
+td.TableTitle2 { background-color: #E4E8EF; }
+td.TableBody1 { background-color: #FFFFFF; line-height: normal; }
+td.TableBody2 { background-color: #E4E8EF; line-height: normal; }
+.tableBorder5 { border: 1px #1592E0 solid; background-color: #D6E0EF; }
+.normalTextSmall { font-size : 11px; color : #FF0000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.magicframe { border:1px solid #CCCCCC; }
+.PageInput { border: solid 1px #D6E0EF; BACKGROUND-COLOR: #FAFAFA; height : 18px; FONT-FAMILY: Arial; FONT-SIZE:11.5px; }
+.ContentFont {font-size: 10pt;color : #555555}
+
+.divpic {
+background-color : #FFFFFF; 
+border: 1px #DDDDDD solid ; 
+padding: 1px; line-height: normal;
+text-align :center;
+width:50px;
+height:50px;
+}
+
+/*������ʽ*/
+.header			{ font-family: Tahoma, Verdana; font-size: 11px; color: #FFFFFF; font-weight: bold; background-color: #0188E2; }
+.tableborders		{ background: #D6E0EF; border: 1px solid #1592E0; } 
+.singleborder		{ font-size: 0px; line-height: 1px; padding: 0px; background-color: #F8F8F8 }
+.tdborder		{ background: #698CC3; }
+.Replyborder1 		{border: 1px dashed #698CC3;background:#F6FAFD;color: #4875B7;}
+.Replytopic	 	{color: #2288E3;}
+
+/*�û�����������ʽ*/
+.UserLeft {
+	border-collapse: collapse; background:#F7F7F7; border-right: 1px solid #DDDDDD;padding-left: 15px;
+}
+.UserRight {
+	border-collapse: collapse; background:#F7F7F7; border-left: 1px solid #DDDDDD;
+}
+.UserTableRow1 {
+	background-color:#F7F7F7;
+}
+.UserTableRow2 {
+	background-color:#F0F0F0;
+}
+.UserTableBorder {
+	border: 1px #3795D2 solid ; 
+	background-color: #FFFFFF;
+	font: 12px;
+	width: 96%;
+	
+}
+.userfont1 {
+	color:red;
+}
+.userfont2 {
+	color:#3795D2;
+}
+.userfont3 {
+	color:green;
+}
+a.treemenu {
+	color: #666666;
+	text-decoration: none;
+}
+a.treemenu:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
